@@ -1,0 +1,30 @@
+node js is js runtime env built on v8 engine .
+similar to chrome, node js also trasfers js code to 
+v8 engine and recieves output from it. To use js on 
+server side to make servers, cli, app backends .
+
+we are using same javascript, but the along with 
+libraries and features of node.
+
+node js uses an event-driven non blocking io model that 
+makes it lightweight and efficient.
+node package ecosystem npm is largest ecosystem of 
+open source libraries.
+
+
+async in node has allowed us to do perform non blocking io, 
+if some piece of code is taking time, other code can execute 
+in meantime.
+
+Asynchronous ->
+
+
+When some nodejs async function is written, it gets to call 
+stack then from call stack it goes to node api as it will be 
+performing some web task, after completion of task, it will be
+ added to callback queue and the items in callback queue will 
+ only be executed if and only if call stack is empty. As the 
+ callstack gets empty the items of callback queue will be executed 
+ in event loop.
+
+
